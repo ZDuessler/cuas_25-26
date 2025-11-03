@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "name": "Live_Geo_Feed",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0062119044293,
+          40.712803080906895
+        ]
+      },
+      "properties": {
+        "name": "Test Vehicle 1",
+        "status": "Online",
+        "speed_kmh": 0,
+        "timestamp": 1761840170.8911083,
+        "update_count": 17
+      }
+    }
+  ]
+}
